@@ -70,6 +70,7 @@ body {
   width: 100%;
 }
 
+/* nav start */
 #header {
   display: flex;
   align-items: center;
@@ -131,8 +132,9 @@ body {
 #close {
   display: none;
 }
+/* nav end */
 
-/* content home start */
+/* home start */
 .hero {
   background-image: url("../images/flat-lay-assortment-macarons-with-roses-copy-space_23-2148489044.avif");
   height: 90vh;
@@ -280,7 +282,7 @@ body {
 }
 
 #featured .featured1 img {
-  width: 100%;
+  width: 90%;
   border-radius: 20px;
 }
 
@@ -294,7 +296,93 @@ body {
   color: #1a1a1a;
   padding-top: 7px;
 }
+/* home end */
 
+/* page header */
+.page-header {
+  /* background-image: url("../images/muffins-candles-aalaw-sprinkles-corner-pink-background_23-2148190399.avif"); */
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url("../images/muffins-candles-aalaw-sprinkles-corner-pink-background_23-2148190399.avif");
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 14px;
+}
+
+.page-header h2,
+.page-header p {
+  color: #fff;
+}
+/* end page header */
+
+/* start services */
+
+/* end services */
+
+/* start menus */
+#menu {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 60px;
+  margin-bottom: 80px;
+}
+
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 25px;
+}
+
+#menu .menu1 {
+  width: 22%;
+  min-width: 250px;
+  padding: 10px 12px;
+  border: 1px solid #cce7d0;
+  border-radius: 25px;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+  margin: 15px 0;
+  transition: 0.2s ease;
+}
+
+#menu .menu1:hover {
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.08);
+}
+
+#menu .menu1 img {
+  width: 80%;
+  border-radius: 20px;
+}
+
+#menu .menu1 .menu-desc {
+  /* text-align: start; */
+  padding: 10px 0;
+}
+
+#menu .menu1 .menu-desc h5 {
+  font-size: 24px;
+  color: #1a1a1a;
+  padding-top: 7px;
+}
+
+#menu .menu1 .menu-desc button{
+  margin-top: 15px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+#menu .menu1 .menu-desc button:hover{
+  background: #fff;
+  color: #088178;
+  border: 2px solid #088178;
+}
+/* end menus */
+
+/* footer start */
 hr.horizontal {
   border-top: 8px solid #041e42;
   /* border-radius: 5px; */
@@ -368,6 +456,7 @@ footer a:hover {
 .copyright p {
   margin-top: 20px;
 }
+/* footer end */
 
 @media (max-width: 900px) {
   .logo {
