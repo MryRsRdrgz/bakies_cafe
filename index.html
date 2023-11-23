@@ -1,33 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bakies Cafe</title>
-    <title>Flexbox-Navigation</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <ul class="menu">
-                <li class="logo"><a href="#">Bakies Cafe</a></li>
-                <li class="item"><a href="#">Home</a></li>
-                <li class="item"><a href="#">About</a></li>
-                <li class="item has-submenu">
-                    <a tabindex="0">Services</a>
-                    <ul class="submenu">
-                        <li class="subitem"><a href="#">Wedding</a></li>
-                        <li class="subitem"><a href="#">Corporate Events</a></li>
-                        <li class="subitem"><a href="#">Private Parties</a></li>
-                    </ul>
-                </li>
-                <li class="item"><a href="#">Contacts</a></li>
-                <li class="item button"><a href="#">Log In</a></li>
-                <li class="item button secondary"><a href="#">Sign Up</a></li>
-                <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
-            </ul>
-        </nav>
-    </header> 
-</body>
+    <link rel="stylesheet" href="assets/fontawesome-free-5/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <section id="header">
+      <a href="index.html"
+        ><img class="logo" src="assets/images/sample-logo@2x.png" alt="LOGO"
+      /></a>
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="menus.html">Menus</a></li>
+          <li><a href="about-us.html">About Us</a></li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+          <li id="lg-login">
+            <a href="#"><i class="fas fa-user"></i> Login</a>
+          </li>
+          <a href="#" id="close"><i class="fas fa-times"></i></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="#"><i class="fas fa-user"></i> Login</a>
+        <i id="bar" class="fas fa-bars"></i>
+      </div>
+    </section>
+
+    <section class="hero">
+      <h4>Tag na tag</h4>
+      <h2>Value na ano</h2>
+      <h1>Product Services</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <!-- <button>Inquire Now</button> -->
+    </section>
+
+    <section class="section-p1" id="services">
+      <h2>Services Offered</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <div class="services-container">
+        <div class="serv">
+          <img
+            src="assets/images/services/premium_photo-1673626579377-8dfda319246b.webp"
+            alt="SERVICES"
+          />
+          <div class="desc">
+            <h5>WEDDINGS</h5>
+          </div>
+        </div>
+
+        <div class="serv">
+          <img
+            src="assets/images/services/premium_photo-1673626579377-8dfda319246b.webp"
+            alt="SERVICES"
+          />
+          <div class="desc">
+            <h5>CORPORATE EVENTS</h5>
+          </div>
+        </div>
+
+        <div class="serv">
+          <img
+            src="assets/images/services/premium_photo-1673626579377-8dfda319246b.webp"
+            alt="SERVICES"
+          />
+          <div class="desc">
+            <h5>PRIVATE PARTIES</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="banner" class="section-m1">
+      <h4>Customize Order</h4>
+      <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h2>
+      <button class="normal" id="inquirenow">INQUIRE NOW</button>
+    </section>
+
+    <section class="section-p1" id="featured">
+      <h2>Featured Menus</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <div class="featured-container">
+        <div class="featured1">
+          <img
+            src="assets/images/featured/73f3ff257e3061746011296129eb4cf4.webp"
+            alt="SERVICES"
+          />
+          <div class="feat-desc">
+            <h5>CAKES</h5>
+          </div>
+        </div>
+
+        <div class="featured1">
+          <img
+            src="assets/images/featured/73f3ff257e3061746011296129eb4cf4.webp"
+            alt="SERVICES"
+          />
+          <div class="feat-desc">
+            <h5>CHOCOLATE CAKE</h5>
+          </div>
+        </div>
+
+        <div class="featured1">
+          <img
+            src="assets/images/featured/73f3ff257e3061746011296129eb4cf4.webp"
+            alt="SERVICES"
+          />
+          <div class="feat-desc">
+            <h5>RED VELVET</h5>
+          </div>
+        </div>
+
+        <div class="featured1">
+          <img
+            src="assets/images/featured/73f3ff257e3061746011296129eb4cf4.webp"
+            alt="SERVICES"
+          />
+          <div class="feat-desc">
+            <h5>BIRTHDAY CAKE</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="horizontal" />
+
+    <footer class="section-p1">
+      <div class="col">
+        <img class="logo" src="assets/images/sample-logo@2x.png" alt="LOGO" />
+        <h4>Contact</h4>
+        <p>
+          <strong>Address:</strong> Deborah St., Zamboanga Farm, Cavinitan,
+          Virac, Catanduanes
+        </p>
+        <p><strong>Email:</strong> bakiescafe@gmail.com</p>
+        <p><strong>Phone:</strong> +63-939-891-5187</p>
+        <div class="follow">
+          <h4>Follow Us</h4>
+          <div class="icon">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-tiktok"></i>
+            <i class="fab fa-pinterest-p"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <h4>About</h4>
+        <a href="about-us.html">About Us</a>
+        <a href="contact-us.html">Contact Us</a>
+        <a href="#">Terms & Condition</a>
+      </div>
+
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Login</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+      </div>
+
+      <div class="col install">
+        <h4>Install App</h4>
+        <p>From App Store or Google Play</p>
+        <div class="row">
+          <img src="assets/images/app.jpg" alt="" />
+          <img src="assets/images/play.jpg" alt="" />
+        </div>
+        <p>Secured Payment Gateways</p>
+        <img src="assets/images/pay.png" alt="" />
+      </div>
+    </footer>
+
+    <div class="copyright">
+      <p>Copyright &copy; 2023, Bakies Cafe</p>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+  </body>
 </html>
