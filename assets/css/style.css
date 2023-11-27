@@ -555,6 +555,20 @@ footer a:hover {
     font-size: 20px;
     padding: 10px 0;
   }
+
+  /* menu page */
+
+  .menu-container {
+    justify-content: center;
+  }
+
+  #menu .menu1 {
+    margin: 20px 20px;
+  }
+
+  #menu .menu1 .menu-desc h5 {
+    font-size: 19px;
+  }
 }
 
 @media (max-width: 700px) {
